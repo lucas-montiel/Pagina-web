@@ -7,21 +7,32 @@
     <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="page-principal">
     <!--method es por defecto GET si se agrega o no -->
     <form action="/link servidor" method="POST">
-      <label for="nombre">Nombre</label>
-      <input
-        type="text"
-        name="nombre"
-        id="nombre"
-        placeholder="Ingresar nombre"
-      />
+      <div class="label">
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Ingresar nombre"
+        />
+      </div>
+      <div class="label">
+        <label for="apellido">Apellido</label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Ingresar apellido"
+        />
+      </div>
       <button type="submit">Enviar</button>
       <!--action envia un json con un body, params, query y headers //en los
-      headers esta la informacion del navegador //en query estan los datos que
-      nosotros enviamos con method GET // con method POST los datos estan en
-      body //Esto se hacia antes, ahora se utilizan framework -->
+        headers esta la informacion del navegador //en query estan los datos que
+        nosotros enviamos con method GET // con method POST los datos estan en
+        body //Esto se hacia antes, ahora se utilizan framework -->
     </form>
   </body>
 </html>

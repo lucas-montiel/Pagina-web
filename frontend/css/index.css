@@ -1,10 +1,29 @@
 input {
   width: 100%;
-  height: 20px;
+  /*padding: 5px; es lo mismo que el height pero se pasa menos px*/
+  height: 30px;
   border-radius: 5px;
   border-color: royalblue;
+  resize: vertical;
+}
+.label {
+  margin-top: 10px;
+}
+.page-principal {
+  background-color: grey;
 }
 
-input: focus {
-  border-color: yellow;
+input:focus {
+  background-color: rgba(140, 142, 255, 0.373);
+  border-color: rgb(0, 255, 17);
+}
+
+button {
+  border-radius: 5%;
+  margin-top: 10px;
+  background-color: #2ad22aff;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
 }
