@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: bisque;
+  color: black;
+}
+
+.padre {
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
+
+.hijo {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  margin-left: 300px;
+  margin-bottom: 10px;
+}
