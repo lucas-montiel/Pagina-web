@@ -99,6 +99,7 @@ input {
   background-color: #6cce27;
 }
 footer {
+  opacity: 70%;
   background-color: black;
   display: flex;
   position: fixed;
@@ -108,12 +109,11 @@ footer {
   height: 80px;
   position: relative;
 }
-.body-footer{
-  position:absolute;
-
+.body-footer {
+  position: absolute;
 }
-.text-footer{
-  color: grey;
+.text-footer {
+  color: rgb(192, 190, 190);
 }
 
 /* tablet y celulares */
