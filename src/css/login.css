@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../10c06d36f8a6ad541539e236fd4f182a.jpeg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+}
+header {
+  background-color: #ee7452;
+  display: flex;
+  justify-content: center;
+}
+.nav-login {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-nav-login {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+}
+.nav-list-item {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+a :hover {
+  background: #6cce27;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-menu {
+  color: black;
+  background-color: #fd714a9a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding: 50px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+input {
+  padding: 4px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  opacity: 75%;
+  width: 100%;
+}
+.login-button {
+  margin-top: 10px;
+  border-radius: 30px;
+  padding: 4px;
+  background: #3bb0ff86;
+  cursor: pointer;
+  transition: all 1s ease;
+  border: none;
+  width: 100%;
+}
+.login-button:hover {
+  background: brown;
+  box-shadow: 0 4px 16px brown;
+}
+.login-menu-extra {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.login-menu-down-link {
+  font-size: 12px;
+}
+.login-menu-down-link:hover {
+  background-color: #6cce27;
+}
+footer {
+  background-color: black;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.body-footer{
+  position:absolute;
+
+}
+.text-footer{
+  color: grey;
+}
+
+/* tablet y celulares */
+@media only screen and (max-width: 480px) {
+  .nav-login {
+    margin-left: 2px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .img-nav-login {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+  }
+}
